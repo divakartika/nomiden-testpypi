@@ -3,5 +3,5 @@
 
 ```{toctree}
 example.ipynb
-autoapi/index
+autoapi/nomiden/reader/index
 ```
