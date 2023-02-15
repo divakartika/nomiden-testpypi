@@ -2,6 +2,7 @@
 ```
 
 ```{toctree}
+index
 example.ipynb
-autoapi/nomiden/reader/index
+autoapi
 ```
