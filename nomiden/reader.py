@@ -7,6 +7,11 @@ class NIK:
 
     ...
 
+    Parameters
+    ----------
+        idnum : int or str
+            personal ID number (NIK)
+
     Attributes
     ----------
     province : str
@@ -60,6 +65,11 @@ class KK:
 
     ...
 
+    Parameters
+    ----------
+        idnum : int or str
+            family ID number (KK)
+
     Attributes
     ----------
     province : str
@@ -88,7 +98,7 @@ class KK:
         Parameters
         ----------
             idnum : int or str
-                ID number (NIK)
+                family ID number (KK)
         """
         self.province = kk.province(idnum)
         self.city = kk.city(idnum)
