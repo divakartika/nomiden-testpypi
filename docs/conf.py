@@ -17,7 +17,7 @@ extensions = [
     'myst_parser'
 ]
 
-# autoapi_dirs = ["../nomiden"]
+autoapi_dirs = ["../nomiden"]
 
 # -- Options for HTML output
 

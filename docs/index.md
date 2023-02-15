@@ -3,5 +3,5 @@
 
 ```{toctree}
 example.ipynb
-api
+autoapi/index
 ```
