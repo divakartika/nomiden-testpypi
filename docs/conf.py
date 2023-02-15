@@ -14,8 +14,11 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode',
     'autoapi.extension',
-    'myst_parser'
+    'myst_parser',
+    'nbsphinx'
 ]
 
 autoapi_dirs = ["../nomiden"]
