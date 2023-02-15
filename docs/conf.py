@@ -20,6 +20,11 @@ extensions = [
 
 autoapi_dirs = ["../nomiden"]
 
+# List of patterns, relative to source directory, that match files and
+# directories to ignore when looking for source files.
+# This pattern also affects html_static_path and html_extra_path.
+exclude_patterns = ["*test*", "*tests*", "nik.py", "kk.py"]
+
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
