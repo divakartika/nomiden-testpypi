@@ -29,7 +29,7 @@ Here are the things that **nomiden** can do for you:
   - Complete information in a dictionary
 
 ## Where to get it
-The source code is currently hosted on GitHub at: https://github.com/divakartika/nomiden-testpypi
+The source code is currently hosted on GitHub at: [https://github.com/divakartika/nomiden-testpypi](https://github.com/divakartika/nomiden-testpypi)
 
 **nomiden** is available at the [Test Python Package Index (Test PyPI)](https://test.pypi.org/project/nomiden/).
 
@@ -44,7 +44,7 @@ python -m pip install --index-url https://test.pypi.org/simple/ --extra-index-ur
 [MIT](LICENSE)
 
 ## Documentation
-https://nomiden-testpypi.readthedocs.io 
+[https://nomiden-testpypi.readthedocs.io](https://nomiden-testpypi.readthedocs.io) 
 
 ## Data Source
 Region code data used in this package is retrieved from [kodewilayah](https://github.com/kodewilayah/permendagri-72-2019) based on the Regulation of the Minister of Home Affairs number 72 of 2019 (Permendagri No. 72 tahun 2019).
