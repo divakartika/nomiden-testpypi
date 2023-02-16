@@ -2,7 +2,7 @@
 
 ## What is it?
 
-**nomiden** is a Python package that provides information extraction from Indonesian ID Numbers, i.e. NIK (Nomor Induk Kependudukan) and KK (Kartu Keluarga).
+**nomiden** is a Python package that provides information extraction from Indonesian ID Numbers, i.e. personal ID number NIK (Nomor Induk Kependudukan) and family ID number KK (Kartu Keluarga). This package is intended to help users dealing with population and client data to auto-complete missing data or add valuable information, given the ID numbers. Information regarding identity numbers refers to Article 33 of Government Regulation Number 37 of 2007.
 
 ## Main Features
 Here are the things that **nomiden** can do for you:
@@ -29,7 +29,7 @@ Here are the things that **nomiden** can do for you:
   - Complete information in a dictionary
 
 ## Where to get it
-The source code is currently hosted on GitHub at: https://github.com/divakartika/nomiden
+The source code is currently hosted on GitHub at: https://github.com/divakartika/nomiden-testpypi
 
 **nomiden** is available at the [Test Python Package Index (Test PyPI)](https://test.pypi.org/project/nomiden/).
 
@@ -44,7 +44,10 @@ python -m pip install --index-url https://test.pypi.org/simple/ --extra-index-ur
 [MIT](LICENSE)
 
 ## Documentation
-[nomiden Documentation](https://divakartika.notion.site/nomiden-Documentation-50ed0573bd7c44bc8337472cfbdb24d3) 
+https://nomiden-testpypi.readthedocs.io 
+
+## Data Source
+Region code data used in this package is retrieved from [kodewilayah](https://github.com/kodewilayah/permendagri-72-2019) based on the Regulation of the Minister of Home Affairs number 72 of 2019 (Permendagri No. 72 tahun 2019).
 
 ## Getting Help & Discussion
 
