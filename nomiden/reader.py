@@ -1,3 +1,5 @@
+from typing import Union
+
 from nomiden import nik
 from nomiden import kk
 
@@ -37,7 +39,7 @@ class NIK:
     all_info : dict
         complete information of the NIK holder in dict format
     """
-    def __init__(self, idnum):
+    def __init__(self, idnum: Union[str, int]):
         """
         Constructs all the necessary attributes for the NIK object.
 
@@ -91,7 +93,7 @@ class KK:
     all_info : dict
         complete information of KK in dict format
     """
-    def __init__(self, idnum):
+    def __init__(self, idnum: Union[str, int]):
         """
         Constructs all the necessary attributes for the KK object.
 
