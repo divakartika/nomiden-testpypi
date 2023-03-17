@@ -8,8 +8,9 @@ certifi==2022.12.7
 cffi==1.15.1
 charset-normalizer==2.0.4
 colorama==0.4.5
+comm==0.1.2
 commonmark==0.9.1
-cryptography==39.0.0
+cryptography==39.0.2
 debugpy==1.5.1
 decorator==5.1.1
 docutils==0.19
@@ -18,6 +19,7 @@ executing==0.8.3
 idna==3.4
 importlib-metadata==6.0.0
 ipykernel==6.15.2
+ipython==8.8.0
 jaraco.classes==3.2.3
 jedi==0.18.1
 jupyter_client==7.3.5
@@ -33,6 +35,7 @@ parso==0.8.3
 pickleshare==0.7.5
 pip==22.2.2
 pkginfo==1.9.6
+platformdirs==2.6.2
 prompt-toolkit==3.0.20
 psutil==5.9.0
 pure-eval==0.2.2
@@ -43,6 +46,8 @@ pyparsing==3.0.9
 PySocks==1.7.1
 python-dateutil==2.8.2
 pytz==2022.6
+pywin32==305
+pywin32-ctypes==0.2.0
 pyzmq==23.2.0
 readme-renderer==37.3
 requests==2.28.1
