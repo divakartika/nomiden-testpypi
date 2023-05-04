@@ -1,6 +1,6 @@
 # nomiden
 
-![nomiden code example](images\nomiden2.png)
+![nomiden code example](images/nomiden2.png)
 
 ## What is it?
 
