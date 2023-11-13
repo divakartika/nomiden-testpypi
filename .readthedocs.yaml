@@ -7,13 +7,23 @@ version: 2
 
 # Set the version of Python and other tools you might need
 # Image to use
-build:
-  image: testing
 
-# Configuration
-python:
-  version: 3.8
-  install:
-    - requirements: docs/requirements.txt
-    - method: pip
-      path: .
+build:
+  os: windows-latest
+  tools:
+    python: "3.10"
+
+ python:
+   install:
+     - requirements: docs/requirements.txt
+
+# build:
+#   image: testing
+
+# # Configuration
+# python:
+#   version: 3.8
+#   install:
+#     - requirements: docs/requirements.txt
+#     - method: pip
+#       path: .
