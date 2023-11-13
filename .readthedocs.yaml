@@ -1,13 +1,6 @@
-# .readthedocs.yaml
-# Read the Docs configuration file
-# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
-
-# Required
 version: 2
 
-# Set the version of Python and other tools you might need
-# Image to use
-
+# Set the OS, Python version and other tools you might need
 build:
   os: windows-latest
   tools:
@@ -16,14 +9,3 @@ build:
  python:
    install:
      - requirements: docs/requirements.txt
-
-# build:
-#   image: testing
-
-# # Configuration
-# python:
-#   version: 3.8
-#   install:
-#     - requirements: docs/requirements.txt
-#     - method: pip
-#       path: .
