@@ -1,6 +1,6 @@
 # nomiden
 
-![nomiden code example](https://raw.githubusercontent.com/divakartika/nomiden-testpypi/main/images/nomiden2.png)
+![nomiden code example](https://raw.githubusercontent.com/divakartika/nomiden-testpypi/main/images/nomiden3.png)
 
 ## What is it?
 
