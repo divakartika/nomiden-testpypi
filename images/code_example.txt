@@ -1,0 +1,27 @@
+﻿
+
+# data enrichment from NIK (Nomor Induk Kependudukan) and # KK (kartu keluarga)
+from nomiden import reader as nr
+
+nik = nr.NIK("7171095405900000") 
+print(nik.all_info)
+# output:
+{'NIK': '7171095101999999',
+'province': 'SULAWESI UTARA',
+'city': 'KOTA MANADO',
+'district': 'Malalayang',
+'gender': 'Female',
+'birth_datetime': datetime.datetime(1999, 1, 11, 0, 0), 'birthday': '11 January 1999', 'age': 24,
+'regist_code': 999
+}
+kk = nr.KK("3171072309999999")
+print(kk.all_info)
+# output:
+{'KK': '3171072309999999',
+'province': 'DKI JAKARTA',
+'city': 'KOTA ADM. JAKARTA PUSAT',
+'district': 'Tanah Abang',
+'regist_datetime': datetime.datetime(1999, 9, 23, 0, 0),
+'regist_day': '23 September 1999',
+'regist_code': 999
+}
